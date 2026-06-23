@@ -271,28 +271,26 @@ a[href^="#"]{ position:relative; }
   gap: 1.6rem 2rem;
   font-family: var(--font-mono);
 }
-.directorio-dl .persona{
-  display:flex;
-  align-items:center;
-  gap:1rem;
-}
-.directorio-dl .avatar{
-  width:60px; height:60px;
-  border-radius:50%;
-  object-fit:cover;
-  flex-shrink:0;
-  border:2px solid var(--amber);
-}
-.directorio-dl dt{
+.directorio-dl .persona dt{
   font-size:0.72rem;
   letter-spacing:0.1em;
   text-transform:uppercase;
   color: var(--muted-light);
+  margin-bottom:0.4rem;
 }
-.directorio-dl dd{
+.directorio-dl .persona dd{
+  display:flex;
+  align-items:center;
+  gap:0.8rem;
   font-family: var(--font-display);
   font-size:1.1rem;
-  margin-top:0.2rem;
+}
+.directorio-dl .avatar{
+  width:48px; height:48px;
+  border-radius:50%;
+  object-fit:cover;
+  flex-shrink:0;
+  border:2px solid var(--amber);
 }
 
 /* =======================================================
