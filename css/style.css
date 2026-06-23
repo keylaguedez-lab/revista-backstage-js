@@ -272,6 +272,7 @@ a[href^="#"]{ position:relative; }
   font-family: var(--font-mono);
 }
 .directorio-dl .persona dt{
+  margin:0;
   font-size:0.72rem;
   letter-spacing:0.1em;
   text-transform:uppercase;
@@ -279,6 +280,7 @@ a[href^="#"]{ position:relative; }
   margin-bottom:0.4rem;
 }
 .directorio-dl .persona dd{
+  margin:0;
   display:flex;
   align-items:center;
   gap:0.8rem;
